@@ -1,0 +1,39 @@
+Id;Default
+330;%d
+251;%s
+80;Burning
+848;Cooking
+689;Elapsed Time
+143;Elapsed Time %s
+731;Insert Pizza
+604;New pizza ready
+754;NInsert Pizza
+599;package pizza
+89;Package the Pizza
+915;pizza
+856;Pizza # %d
+275;Pizza # %i
+870;Pizza %s
+362;pizza (done)
+593;pizza (on deck)
+836;Pizza cooking
+123;Pizza Cooking
+935;Pizza done
+86;Pizza Done
+212;Pizza raw
+436;Pizza Raw
+163;Pizzas burned: %d
+468;Pizzas cooked: %d
+680;Pizzas cooked: %s
+651;Put a Pizza
+284;Put a pizza
+792;Rea Pizza
+657;Reset Counter
+50;Reset counter
+253;Reset CounterPizza
+97;Take Pizza out
+459;take the pizza
+419;test
+214;Timer %d
+901;Timer %s
+265;Timer %t

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.3">
+  <POU Name="MAIN" Id="{32680e72-6e98-4f5f-aa63-a3b3583f82e0}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+
+	fbMyPizzaOven:FB_PIZZA_OVEN; //oven 1
+	fbMyPizzaOven2:FB_PIZZA_OVEN; //oven 2
+	btn_PutAPizza:BOOL;
+	btn_PackageThePizza:BOOL;
+	bReset:BOOL;
+	
+	btn_PutAPizzaT:R_TRIG;
+	btn_PackageThePizzaT:R_TRIG;
+	bResetT:R_TRIG;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[btn_PutAPizzaT(CLK:=main.btn_PutAPizza);
+btn_PackageThePizzaT(CLK:=main.btn_PackageThePizza);
+bResetT(CLK:=main.bReset);
+
+fbMyPizzaOven(
+	bReset:=main.bResetT.Q,
+	btn_PutAPizza:=main.btn_PutAPizzaT.Q,
+	btn_PackageThePizza:=main.btn_PackageThePizzaT.Q
+);
+
+fbMyPizzaOven2(
+	bReset:=main.bResetT.Q,
+	btn_PutAPizza:=main.btn_PutAPizzaT.Q,
+	btn_PackageThePizza:=main.btn_PackageThePizzaT.Q
+);
+
+]]></ST>
+    </Implementation>
+    <LineIds Name="MAIN">
+      <LineId Id="235" Count="1" />
+      <LineId Id="263" Count="1" />
+      <LineId Id="205" Count="0" />
+      <LineId Id="227" Count="0" />
+      <LineId Id="224" Count="2" />
+      <LineId Id="230" Count="1" />
+      <LineId Id="265" Count="1" />
+      <LineId Id="234" Count="0" />
+      <LineId Id="229" Count="0" />
+      <LineId Id="250" Count="0" />
+      <LineId Id="249" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>
