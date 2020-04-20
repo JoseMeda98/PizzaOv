@@ -3,9 +3,16 @@ Id;Default
 251;%s
 80;Burning
 848;Cooking
+93;Cooking time
+637;Cooking time 
+553;Cooking time %d
+817;Cooking time %t
+834;Cooking time (seconds)
 689;Elapsed Time
 143;Elapsed Time %s
 731;Insert Pizza
+435;Käse
+542;Load Recipe
 604;New pizza ready
 754;NInsert Pizza
 599;package pizza
@@ -28,9 +35,14 @@ Id;Default
 651;Put a Pizza
 284;Put a pizza
 792;Rea Pizza
+734;Recipe1
+283;Recipe2
+695;Recipe3
 657;Reset Counter
 50;Reset counter
 253;Reset CounterPizza
+280;Save Recipe
+601;Schinken
 97;Take Pizza out
 459;take the pizza
 419;test

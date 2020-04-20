@@ -26,6 +26,31 @@
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
+              <v n="TextID">"93"</v>
+              <v n="TextDefault">"Cooking time"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"637"</v>
+              <v n="TextDefault">"Cooking time "</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"553"</v>
+              <v n="TextDefault">"Cooking time %d"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"817"</v>
+              <v n="TextDefault">"Cooking time %t"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"834"</v>
+              <v n="TextDefault">"Cooking time (seconds)"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
               <v n="TextID">"689"</v>
               <v n="TextDefault">"Elapsed Time"</v>
               <l n="LanguageTexts" t="ArrayList" />
@@ -38,6 +63,16 @@
             <o>
               <v n="TextID">"731"</v>
               <v n="TextDefault">"Insert Pizza"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"435"</v>
+              <v n="TextDefault">"Käse"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"542"</v>
+              <v n="TextDefault">"Load Recipe"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
@@ -151,6 +186,21 @@
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
+              <v n="TextID">"734"</v>
+              <v n="TextDefault">"Recipe1"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"283"</v>
+              <v n="TextDefault">"Recipe2"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"695"</v>
+              <v n="TextDefault">"Recipe3"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
               <v n="TextID">"657"</v>
               <v n="TextDefault">"Reset Counter"</v>
               <l n="LanguageTexts" t="ArrayList" />
@@ -163,6 +213,16 @@
             <o>
               <v n="TextID">"253"</v>
               <v n="TextDefault">"Reset CounterPizza"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"280"</v>
+              <v n="TextDefault">"Save Recipe"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"601"</v>
+              <v n="TextDefault">"Schinken"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>

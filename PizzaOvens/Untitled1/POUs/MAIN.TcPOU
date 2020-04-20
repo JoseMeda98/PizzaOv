@@ -13,6 +13,11 @@ VAR
 	btn_PutAPizzaT:R_TRIG;
 	btn_PackageThePizzaT:R_TRIG;
 	bResetT:R_TRIG;
+	
+	fbReadRecipe:RecipeManCommands;
+	btnLoadRecipe:BOOL;
+	btnSaveRecipe:BOOL;
+	iIndexRecipe:int;
 END_VAR
 ]]></Declaration>
     <Implementation>
@@ -32,6 +37,21 @@ fbMyPizzaOven2(
 	btn_PackageThePizza:=main.btn_PackageThePizzaT.Q
 );
 
+IF btnSaveRecipe THEN
+	fbReadRecipe.ReadRecipe(
+		RecipeDefinitionName:='Recipe',
+		RecipeName:='MyRec'
+	);
+END_IF
+
+
+IF btnLoadRecipe THEN
+	fbReadRecipe.WriteRecipe(
+		RecipeDefinitionName:='Recipe',
+		RecipeName:='MyRec'
+	);
+END_IF
+
 ]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
@@ -44,8 +64,18 @@ fbMyPizzaOven2(
       <LineId Id="265" Count="1" />
       <LineId Id="234" Count="0" />
       <LineId Id="229" Count="0" />
+      <LineId Id="282" Count="0" />
       <LineId Id="250" Count="0" />
       <LineId Id="249" Count="0" />
+      <LineId Id="294" Count="2" />
+      <LineId Id="285" Count="0" />
+      <LineId Id="290" Count="0" />
+      <LineId Id="287" Count="2" />
+      <LineId Id="292" Count="1" />
+      <LineId Id="297" Count="0" />
+      <LineId Id="286" Count="0" />
+      <LineId Id="301" Count="0" />
+      <LineId Id="291" Count="0" />
     </LineIds>
   </POU>
 </TcPlcObject>
